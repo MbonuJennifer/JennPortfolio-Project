@@ -13,6 +13,9 @@
 body {
   overflow-x: hidden;
 }
+.active{
+  color: var(--primary-color) !important;
+}
 h3 {
   font-size: 96px;
 }
@@ -21,7 +24,7 @@ h2 {
   margin-bottom: 28px;
 }
 h3,
-h2 {
+h2, .navbarBrand {
   font-weight: 700;
   font-family: "Playfair Display", serif;
   font-style: Bold;
@@ -37,7 +40,7 @@ h2 {
   font-size: 26px;
   font-weight: 500;
 }
-p {
+p, .nav-link {
   font-family: "Poppins", sans-serif;
   font-style: Bold;
   /* text-align: center; */
@@ -89,7 +92,6 @@ p {
 .enquiry-box {
   background-color: var(--gray-color);
   border: none;
-  margin-top: 3rem !important;
 }
 .circle{
   background-color: var(--gray-color);
@@ -99,6 +101,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: .9rem;
 
 }
 .social-icon{
