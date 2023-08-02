@@ -13,7 +13,7 @@
 body {
   overflow-x: hidden;
 }
-.active{
+.active {
   color: var(--primary-color) !important;
 }
 h3 {
@@ -24,7 +24,8 @@ h2 {
   margin-bottom: 28px;
 }
 h3,
-h2, .navbarBrand {
+h2,
+.navbarBrand {
   font-weight: 700;
   font-family: "Playfair Display", serif;
   font-style: Bold;
@@ -40,10 +41,10 @@ h2, .navbarBrand {
   font-size: 26px;
   font-weight: 500;
 }
-p, .nav-link {
+p,
+.nav-link {
   font-family: "Poppins", sans-serif;
   font-style: Bold;
-  /* text-align: center; */
   line-height: 30px;
 }
 .work-para {
@@ -57,6 +58,7 @@ p, .nav-link {
   margin-top: 1rem;
   padding: 0.6rem 2rem;
   color: white;
+  transition: all 100ms ease-in-out;
 }
 .hero-section {
   background-color: var(--gray-color);
@@ -67,9 +69,7 @@ p, .nav-link {
 .yoga-link,
 .footer-link {
   padding: 0.7rem 2rem;
-
   text-decoration: none;
-
   border-radius: 0.2rem;
   font-family: Poppins, sans-serif;
   font-size: 18px;
@@ -77,23 +77,19 @@ p, .nav-link {
   text-align: center;
 }
 .yoga-link {
-  /* background-color: var(--primary-color); */
   border: 1px solid var(--primary-color);
-
   color: var(--primary-color);
-
   margin-top: 1rem;
 }
 .footer-link {
   background-color: var(--primary-color);
-
   color: white;
 }
 .enquiry-box {
   background-color: var(--gray-color);
   border: none;
 }
-.circle{
+.circle {
   background-color: var(--gray-color);
   height: 3.5rem;
   width: 3.5rem;
@@ -101,11 +97,13 @@ p, .nav-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: .9rem;
-
+  margin-left: 0.9rem;
 }
-.social-icon{
+.social-icon {
   font-size: 2rem;
   color: var(--primary-color);
-
+}
+.btn-purple:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
