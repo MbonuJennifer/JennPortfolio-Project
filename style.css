@@ -88,6 +88,7 @@ p,
 .enquiry-box {
   background-color: var(--gray-color);
   border: none;
+  padding: 1rem;
 }
 .circle {
   background-color: var(--gray-color);
@@ -106,4 +107,19 @@ p,
 .btn-purple:hover {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+}
+.addMargin{
+  margin: 7rem 0;
+}
+
+@media (max-width: 767px) {
+  .text-center-sm, .headingAbout {
+    text-align: center;
+  }
+  .addMargin{
+    margin: 1rem 0;
+  }
+  .enquiry-box{
+    padding: 1rem 2rem 3rem;
+  }
 }
